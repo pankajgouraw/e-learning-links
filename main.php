@@ -12,7 +12,7 @@
 			$title = $query_row['title'];
 			$description = $query_row['description'];
 			$link= $query_row['link'];
-			$data ='<table class="table mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+			$data ='<table class="table mdl-data-table ">
 			         
 			        <tbody>
 			        <tr class="link">

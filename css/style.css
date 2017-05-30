@@ -52,8 +52,26 @@ button.btn{
                                               
 .center{
 	text-align:center;
-}                                            
+}  
+.td_title{
+	text-align: left !important ;
+} 
+.td_description{
+	text-align: left !important ;
+}                                          
 
+table.table{
+	background: none;
+	border:none;
+}
+table.table tbody tr:hover{
+	background: rgba(0,0,0,.14);;
+	transition: all 1s linear;
+}
+table.table:hover .td_link{
+	font-size:15px;
+	transition: all 0.2s linear;
+}
                             /**************************** mobile device ***************************/
 
 @media all and (min-width:0px) and (max-width:600px){
